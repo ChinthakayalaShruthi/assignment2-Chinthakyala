@@ -6,7 +6,7 @@ The **Salar Jung Museum** is an art museum located at Dar-ul-Shifa, on the south
 
 ---
 
-# Directions from Maryville to Nevada
+# Directions from Rajiv Gandhi International Airport to Salar Jung Museum
 1. Catch a directions of 1,396 miles from marryville to Henderson via flight
 2. catch a cab and go to the kansas airport(mca)
     1. take a flight from kansas to lasvegas airport(las)
@@ -17,7 +17,7 @@ The **Salar Jung Museum** is an art museum located at Dar-ul-Shifa, on the south
 4. Finally we have reached our location yeyeye..!!
 
 
-* Items i would like to carry with me:
+* Sight seeing places around museum:
  * Drinks:
     * Cocola
     * Tropicana
