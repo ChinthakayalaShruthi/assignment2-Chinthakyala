@@ -51,6 +51,7 @@ I am going to create a table with 4 cities that I would love to recommend someon
 > "When nobody else celebrates you, learn to celebrate yourself. When nobody else compliments you, then compliment yourself. It’s not up to other people to keep you encouraged. It’s up to you. Encouragement should come from the inside." *Jay Shetty*
 
 <Br>
+
 >  “Lighten up, just enjoy life, smile more, laugh more, and don’t get so worked up about things.”  *Kenneth Branagh*
 
 ---
