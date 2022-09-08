@@ -36,14 +36,14 @@ The **Salar Jung Museum** is an art museum located at Dar-ul-Shifa, on the south
 ---
 
 # 4 cities i  loved and i would love to suggest
-I am going to create a table with  4 cities that I would love to recommend someone to visit = London, Sydney ,Paris , California.
+I am going to create a table with 4 cities that I would love to recommend someone to visit = London, Sydney ,Paris , Mumbai.
 
 |name of the city |locations to visit | duration|
 |---|---|---|
 |London|Buckingham Palace|30 minutes|
 |Sydney|Opera House|45 minutes|
 |Paris|Eiffel Tower|35 minutes|
-|California|Yosemite National Park|75 minutes|
+|Mumbai|Gateway of India|20 minutes|
 
 ---
 # Pithy Quote
@@ -55,46 +55,28 @@ I am going to create a table with  4 cities that I would love to recommend someo
 
 ---
 
-# Dijkstra Algorithm
-> Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later. The algorithm exists in many variant
+# Javascript
+> 
 
-[Click Here to Know More](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+[Click Here to Know More](https://css-tricks.com/snippets/javascript/)
 
 
 ```
 
-const int INF = 1000000000;
-vector<vector<pair<int, int>>> adj;
+const array = [1, 1, 1, 3, 3, 2, 2];
 
-void dijkstra(int s, vector<int> & d, vector<int> & p) {
-    int n = adj.size();
-    d.assign(n, INF);
-    p.assign(n, -1);
-    vector<bool> u(n, false);
+// Method 1: Using a Set
+const unique = [...new Set(array)];
 
-    d[s] = 0;
-    for (int i = 0; i < n; i++) {
-        int v = -1;
-        for (int j = 0; j < n; j++) {
-            if (!u[j] && (v == -1 || d[j] < d[v]))
-                v = j;
-        }
+// Method 2: Array.prototype.reduce
+const unique = array.reduce((result, element) => {
+  return result.includes(element) ? result : [...result, element];
+}, []);
 
-        if (d[v] == INF)
-            break;
-
-        u[v] = true;
-        for (auto edge : adj[v]) {
-            int to = edge.first;
-            int len = edge.second;
-
-            if (d[v] + len < d[to]) {
-                d[to] = d[v] + len;
-                p[to] = v;
-            }
-        }
-    }
-}
+// Method 3: Array.prototype.filter
+const unique = array.filter((element, index) => {
+  return array.indexOf(element) === index;
+});
 ```
-[code source](https://cp-algorithms.com/graph/dijkstra.html)
+[code source](https://css-tricks.com/snippets/javascript/remove-duplicates-from-an-array/)
 
