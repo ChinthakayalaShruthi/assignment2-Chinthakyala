@@ -12,7 +12,7 @@ The **Salar Jung Museum** is an art museum located at Dar-ul-Shifa, on the south
     2. take all ur belongings and book a cab to  which takes 20-30 min from airport
 2. wait for the cab to arive 
     1. Sit back and enjoy the food and shopping centers at the airport 
-    2. By listening to ur favourit music
+    2. By listening to ur favourit musics
 3. Finally cab has arrived and you reached our location.
 
 
